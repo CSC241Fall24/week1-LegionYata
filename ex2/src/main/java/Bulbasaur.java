@@ -60,13 +60,13 @@ public class Bulbasaur {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
         if (id == 1) {
-            return "Bulbasaur (Level: " + level + ")";
+            return "Level: " + level + ", ID: " + id;
         } else if (id == 2) {
-            return "Ivysaur (Level: " + level + ")";
+            return "Level: " + level + ", ID: " + id;
         } else if (id == 3) {
-            return "Venusaur (Level: " + level + ")";
+            return "Level: " + level + ", ID: " + id;
         } else {
-            return "Error";
+            return "Error, invalid ID";
         }
 
     }
